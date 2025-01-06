@@ -1,0 +1,26 @@
+return {
+    "williamboman/mason.nvim",
+    opts = {
+        ensure_installed = {
+            "ast-grep",
+            "delve",
+            "detekt",
+            "flake8",
+            "gofumpt",
+            "goimports-reviser",
+            "golangci-lint",
+            "gomodifytags",
+            "gopls",
+            "iferr",
+            "impl",
+            "kotlin-debug-adapter",
+            "kotlin-language-server",
+            "ktfmt",
+            "ktlint",
+            "lua-language-server",
+            "shellcheck",
+            "shfmt",
+            "stylua",
+        },
+    },
+}
